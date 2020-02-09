@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/group"
+    android:layout_height="match_parent">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           >
+           <ProgressBar
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:id="@+id/pbrt"
+               android:visibility="gone"
+               ></ProgressBar>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="160dp"
+               android:id="@+id/imgViewId"
+               android:layout_gravity="center"
+               android:layout_margin="10dp"
+               android:padding="10dp"
+               ></ImageView>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Name: "
+               android:textSize="15dp"
+               android:textColor="#000"
+               android:textStyle="bold"
+               android:layout_margin="10dp"
+               android:padding="10dp"
+               android:id="@+id/nameSTv"
+               ></TextView>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:weightSum="2"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Gender: "
+                   android:textSize="15dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:layout_margin="10dp"
+                   android:padding="10dp"
+                   android:id="@+id/genderSTv"
+                   android:layout_weight="1"
+                   ></TextView>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Age: "
+                   android:textSize="15dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:layout_margin="10dp"
+                   android:padding="10dp"
+                   android:id="@+id/ageSTv"
+                   android:layout_weight="1"
+                   ></TextView>
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:weightSum="2"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Work: "
+                   android:textSize="15dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:layout_margin="10dp"
+                   android:padding="10dp"
+                   android:id="@+id/workSTv"
+                   android:layout_weight="1"
+                   ></TextView>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Experience: "
+                   android:textSize="15dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:layout_margin="10dp"
+                   android:padding="10dp"
+                   android:id="@+id/experiSTv"
+                   android:layout_weight="1"
+                   ></TextView>
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:weightSum="2"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Division: "
+                   android:textSize="15dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:layout_margin="10dp"
+                   android:padding="10dp"
+                   android:id="@+id/divisionSTv"
+                   android:layout_weight="1"
+                   ></TextView>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="District: "
+                   android:textSize="15dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:layout_margin="10dp"
+                   android:padding="10dp"
+                   android:id="@+id/DistrictSTv"
+                   android:layout_weight="1"
+                   ></TextView>
+
+           </LinearLayout>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Thana/Upozila: "
+               android:textSize="15dp"
+               android:textColor="#000"
+               android:textStyle="bold"
+               android:layout_margin="10dp"
+               android:padding="10dp"
+               android:id="@+id/thanaSTv"
+               ></TextView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Address: "
+               android:textSize="15dp"
+               android:textColor="#000"
+               android:textStyle="bold"
+               android:layout_margin="10dp"
+               android:padding="10dp"
+               android:id="@+id/addressSTv"
+               ></TextView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Contact Number: "
+               android:textSize="15dp"
+               android:textColor="#000"
+               android:textStyle="bold"
+               android:layout_margin="10dp"
+               android:padding="10dp"
+               android:autoLink="phone"
+               android:id="@+id/phoneSTv"
+               ></TextView>
+
+       </LinearLayout>
+
+   </ScrollView>
+</LinearLayout>

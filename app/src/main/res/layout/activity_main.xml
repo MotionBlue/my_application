@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9D3CF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="203dp"
+        android:layout_height="186dp"
+        android:src="@drawable/lgo"
+        android:layout_margin="20dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center">
+    </ImageView>
+
+    <TextView
+        android:layout_marginTop="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/re"
+        ></TextView>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:background="@drawable/roundbtn"
+        android:id="@+id/signUpBtn"
+        android:textColor="#000"
+        android:textAllCaps="false"
+        ></Button>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/languageSelect"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="100dp"
+        ></Spinner>
+
+</LinearLayout>
